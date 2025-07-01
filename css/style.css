@@ -162,7 +162,7 @@ body {
 
 .had__img {
   width: 460px;
-    height: 779px;
+  height: 779px;
 }
 
 .partners {
@@ -182,9 +182,21 @@ body {
 
 .savings {
   display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 15px;
-    background-color: #FFFFFF;
-padding: 50px 20px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  background-color: #FFFFFF;
+  padding: 50px 20px;
+}
+
+
+
+/* ======================= deposit ===================================== */
+
+.deposit {
+  background-image: url(/image/deposit.png);
+
+  height: 1666px;
+
+
 }
