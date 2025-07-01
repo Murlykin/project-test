@@ -190,11 +190,10 @@ body {
 }
 
 
-
 /* ======================= deposit ===================================== */
 
 .deposit {
-  background-image: url(/image/deposit.png);
+  background-image: url(../image/deposit.png);
 
   height: 1666px;
 
