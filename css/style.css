@@ -231,6 +231,99 @@ letter-spacing: 2.56px;
     background: #FFFFFF;
     border: 1px solid #0E0F0F3D
 }
+
+/* ======================== reimagine ================================== */
+.reimagine {
+  display: flex;
+    align-items: center;
+    gap: 55px;
+    background-color: #D2D9E1;    ;
+    padding: 50px 20px;
+}
+
+.reimagine__star {
+  display: flex;
+gap: 15px;
+    align-items: center;
+}
+
+.reimagine__star-img {
+  width: 48px;
+    height: 49px;
+}
+
+.reimagine__star-b {
+  display: flex;
+  align-items: center;
+}
+
+.reimagine__star-r {
+  width: 24px;
+    height: 48px;
+}
+.reimagine__text{
+  display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 80px;
+}
+.reimagine__p {
+  font-family: Chivo;
+    font-size: 14px;
+    line-height: 19.6px;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+    color: #0E0F0F;
+}
+
+.reimagine__h2 {
+  font-family: Roboto;
+    font-size: 61px;
+    line-height: 64px;
+    letter-spacing: 2.56px;
+    color: #0E0F0F;
+}
+.reimagine__p1 {
+  font-family: Roboto;
+    font-size: 16px;
+    line-height: 25.2px;
+    letter-spacing: 0.36px;
+}
+
+.reimagine__p2 {
+  font-family: Roboto;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.72px;
+}
+
+.reimagine__p3 {
+  font-family: Roboto;
+    font-size: 18px;
+    line-height: 25.2px;
+    letter-spacing: 0%;
+}
+
+.reimagine__span {
+  font-family: Roboto;
+    font-size: 17px;
+    line-height: 25.2px;
+    letter-spacing: 0%;
+}
+
+.reimagine__t {
+  display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+.reimagine__t1 {
+  display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
 /* ======================= deposit ===================================== */
 
 .deposit {
