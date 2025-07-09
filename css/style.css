@@ -237,7 +237,7 @@ letter-spacing: 2.56px;
   display: flex;
     align-items: center;
     gap: 55px;
-    background-color: #D2D9E1;    ;
+    background-color: #D2D9E1;   
     padding: 50px 20px;
 }
 
@@ -318,11 +318,78 @@ gap: 15px;
     gap: 10px;
     padding-top: 20px;
 }
+
 .reimagine__t1 {
   display: flex;
     align-items: center;
     gap: 5px;
 }
+
+/* ======================= friendly ===================================== */
+
+.friendly {
+  display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 55px;
+    background-color: #FFFFFF; 
+  padding: 20px 50px;   
+
+}
+
+.friendly__top {
+  display: flex;
+
+    gap: 80px;
+    background-color: #FFFFFF;
+
+}
+.friendly__item {
+  display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 10px 20px;
+}
+
+.friendly__p {
+  font-family: Roboto;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 33.6px;
+    letter-spacing: 0%;
+    color: #0E0F0F;
+    width: 289px;
+      height: 202px;
+
+}
+.friendly__p1 {
+  font-family: Roboto;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+    color: #0E0F0F;  
+    padding-bottom: 10px;
+}
+
+.friendly__p2 {
+  font-family: Roboto;
+    font-style: Regular;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0.28px;
+  color: #0E0F0F;
+}
+
+.friendly__p3 {
+  font-family: Roboto;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    text-align: center;
+}
+
 
 /* ======================= deposit ===================================== */
 
