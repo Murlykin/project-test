@@ -483,6 +483,7 @@ body {
   margin: 0 auto;
   background: #0e0f0f;
   padding: 10px;
+  color: #ffffff;
 }
 
 .deposit__button {
@@ -491,4 +492,62 @@ body {
   border-radius: 100px;
   opacity: 1;
   background: #ffffff;
+}
+
+/* ================== ready ====================================== */
+
+.ready {
+  display: flex;
+  align-items: center;
+  gap: 110px;
+  background-image: url(../image/ready.png);
+  width: 1200px;
+  height: 463px;
+  opacity: 1;
+  padding: 50px 100px;
+}
+
+.ready__h2 {
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 54px;
+  line-height: 64px;
+  letter-spacing: 2.56px;
+  color: #ffffff;
+}
+
+.ready__p {
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 33.6px;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+.ready__button {
+  font-family: Chivo;
+  font-style: Regular;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.96px;
+  text-align: center;
+  text-transform: uppercase;
+
+  opacity: 1;
+  color: #0e0f0f;
+  width: 159px;
+  height: 20px;
+  background: #ffffff;
+  border-radius: 100px;
+}
+.ready__right {
+  display: flex;
+  padding-top: 50px;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.ready__span {
+  padding-left: 10px;
 }
