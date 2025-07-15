@@ -42,21 +42,19 @@ ol {
   padding-left: 0;
   
 }
-
+:root {
+  --timing-functione: cubic-bezier(0.4, 0, 0.2, 1);
+ 
+}
 button {
   cursor: pointer;
 }
 
 body {
   width: 1200px;
-  height: 10973px;
   background: #0e0f0f;
   margin: 0 auto;
 }
-
-/* .section {
-  margin-top: 62px;
-} */
 
 .header {
   display: flex;
@@ -562,13 +560,10 @@ body {
 
 .about {
   display: flex;
-    /* align-items: center; */
     gap: 110px;
-  /* width: 1200px; */
-    height: 581px;
+    /* height: 581px; */
     opacity: 1;
-    margin: 150px 50px 50px 50px;
-    /* background: #ffffff; */
+    margin: 150px 20px 0px 50px;
 }
 
 .about__h3 {
@@ -577,7 +572,6 @@ body {
     font-size: 14px;
     line-height: 19.6px;
     letter-spacing: 1.12px;
-    /* text-align: center; */
     text-transform: uppercase;
     color: #D2D9E1;
 }
@@ -588,7 +582,6 @@ body {
     font-size: 17px;
     line-height: 25.2px;
     letter-spacing: 0%;
-    /* text-align: center; */
     color: #D2D9E1;
     list-style-type: none;
     text-decoration: none;
@@ -604,7 +597,7 @@ body {
     flex-wrap: wrap;
     -webkit-box-pack: center;
     justify-content: center;
-    column-gap: 10px;
+    column-gap: 15px;
     margin: 16px 0 50px 0;
 
 }
@@ -613,10 +606,46 @@ body {
     -webkit-box-align: center;
     align-items: center;
     justify-content: space-around;
-    width: 24px;
-    height: 24px;
-    /* color: #000000; */
-    fill: #ec0c0c;
+    width: 28px;
+    height: 30px;
     border-radius: 10%;
-    border: 1px solid #0edbdb;
-} 
+}
+.about__icon:focus,
+.about__icon:hover {
+  fill: #f4f0f0;
+  transition: background-color 250ms var(--timing-functione), fill 250ms var(--timing-functione);
+}
+/* ========================= footer ================================== */
+.footer__rectangle {
+  padding: 50px 0;
+}
+
+.footer__top {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+.footer__p{
+  font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #B3B3B3;
+}
+.footer__span {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.footer__bottom {
+  font-family: Roboto;
+    font-style: Regular;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #B3B3B3;
+    padding: 20px 0;
+}
