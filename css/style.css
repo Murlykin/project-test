@@ -556,7 +556,129 @@ body {
   padding-left: 10px;
 }
 
-/* ================ about ========================================== */
+/* =================== built ============================================================== */
+
+.built {
+    opacity: 1;
+  background-image: url(../image/built.png);
+  background-repeat: no-repeat;
+    height: 600px;
+    background-color: #FFFFFF;
+}
+
+/* ======================================= compare ============================================ */
+.compare {
+  display: flex;
+    gap: 110px;
+    /* height: 1329px; */
+    opacity: 1;
+    background: #D2D9E1;
+    padding: 100px 50px;
+}
+
+.compare__h2 {
+  font-family: Roboto;
+    font-style: Regular;
+    font-size: 53px;
+    line-height: 64px;
+    letter-spacing: 2.56px;
+    color: #0E0F0F;
+}
+.compare__p {
+  font-family: Roboto;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 33.6px;
+    letter-spacing: 0.48px;
+    color: #0E0F0F;
+    padding-top: 20px;
+}
+.compare__richt{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.compare__richt-top {
+  display: flex;
+  flex-direction: column;
+  /* width: 544px;
+    height: 889px; */
+    opacity: 1;
+    border-radius: 24px;
+    background: #0E0F0F;
+    padding: 20px;
+    margin-bottom: 20px;
+    gap: 25px;
+}
+
+.compare__richt-h5 {
+  font-family: Roboto;
+    font-style: Regular;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.96px;
+    color: #FFFFFF;
+}
+.compare__richt-p {
+  font-family: Roboto;
+    font-style: Regular;
+    font-size: 23px;
+    line-height: 33.6px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    text-align: end;
+}
+
+.compare__richt-p1 {
+  font-family: Roboto;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 25.2px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.compare__richt-p2 {
+  font-family: Roboto;
+    font-style: Regular;
+    font-size: 17px;
+    line-height: 25.2px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.compare__richt-p3 {
+  font-family: Roboto;
+    font-style: Regular;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #B3B3B3;
+}
+.compare__richt-p4 {
+  font-family: Roboto;
+    font-style: Regular;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    text-align: center;
+    color: #0E0F0F;
+}
+
+.compare__richt-items {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.compare__richt-img {
+  width: fit-content;
+}
+/* ======================================= Asked ================================================ */
+.asked {
+    /* height: 10973px; */
+    opacity: 1;
+    background: #FFFFFF;
+}
+/* ======================================= about ========================================== */
 
 .about {
   display: flex;
