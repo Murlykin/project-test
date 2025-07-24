@@ -790,9 +790,118 @@ body {
 
 /* ======================================= Asked ================================================ */
 .asked {
-  /* height: 10973px; */
+  display: flex;
+  flex-direction: column;
+  /* gap: 120px; */
+  padding: 200px 40px;
   opacity: 1;
   background: #FFFFFF;
+}
+
+.asked__h2 {
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 54px;
+  line-height: 64px;
+  letter-spacing: 2.56px;
+  text-align: center;
+  color: #0E0F0F;
+  padding-bottom: 50px;
+}
+
+.asked__items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 100px;
+}
+
+.asked__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.asked__p {
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.96px;
+  color: #0E0F0F;
+}
+
+.asked__button {
+  width: 209px;
+  height: 46px;
+  opacity: 1;
+  top: 8834px;
+  left: 495px;
+  border-radius: 100px;
+  border-width: 1px;
+  background: #FFFFFF;
+  border: 1px solid #0E0F0F3D;
+  font-family: Chivo;
+  font-style: Regular;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.96px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #0E0F0F;
+  margin: 0 auto;
+}
+
+.asked__img {
+  width: 44px;
+  height: 44px;
+  opacity: 1;
+  border-width: 1px;
+  border: 1px solid #0E0F0F40
+}
+
+.asked__switch {
+  display: none;
+}
+
+.asked__body {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.asked__switch:checked~.asked__body {
+  max-height: 100px;
+}
+
+.asked__headline::before {
+  content: "";
+  position: absolute;
+  left: -18px;
+  top: 4px;
+  /* border: 6px solid #39739d; */
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+}
+
+.asked__switch:checked~.asked__headline::before {
+  transform: rotate(180deg) translateY(6px);
+}
+
+.asked__headline {
+  display: block;
+  position: relative;
+  margin-bottom: 15px;
+  user-select: none;
+  color: #39739d;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.asked__headline:hover {
+  text-decoration: underline;
 }
 
 /* ======================================= about ========================================== */
