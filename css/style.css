@@ -869,6 +869,12 @@ body {
   max-height: 0;
   overflow: hidden;
   transition: 0.4s;
+  font-family: Roboto;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.96px;
+    color: #0E0F0F;
 }
 
 .asked__switch:checked~.asked__body {
@@ -880,7 +886,6 @@ body {
   position: absolute;
   left: -18px;
   top: 4px;
-  /* border: 6px solid #39739d; */
   border-bottom-color: transparent;
   border-right-color: transparent;
   border-left-color: transparent;
@@ -904,6 +909,28 @@ body {
   text-decoration: underline;
 }
 
+.asked__span {
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  color: #0E0F0F;
+  font-size: 44px;
+  line-height: 24px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 8px;
+  opacity: 1;
+}
+
+.asked__span::before {
+  content: "+";
+}
+
+.asked__span:focus,
+.asked__span:hover {
+  transform: rotate(90deg);
+  color: #505454;
+}
 /* ======================================= about ========================================== */
 
 .about {
